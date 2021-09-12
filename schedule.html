@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial scale=1.0">
+    <title>DevKet Portfolio Website</title>
+    <!--normalize helps even out the differences between the browsers-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--font-awesome for social icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css" 
+    integrity="sha512-9iWaz7iMchMkQOKA8K4Qpz6bpQRbhedFJB+MSdmJ5Nf4qIN1+5wOVnzg5BQs/mYH3sKtzY+DOgxiwMz8ZtMCsw==" crossorigin="anonymous" />
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/schedule.css">
+
+</head>
+<body>
+    <header>
+        <div class = "logo">
+          <a href="#"><img src="img/devket.png" alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <!-- <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Harrowall <strong>Setting Schedule</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Guesstimated dates</p>
+        <img src="img/harrowall01.png" alt="a picture of " class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+      <main class="main">
+        <table class="table">
+        <tr>
+          <th>Area</th>
+          <th>Strip date</th>
+          <th>Reset date</th>
+          <th>Setter</th>
+        </tr>
+        <tr>
+          <td>Long Island Wall</td>
+          <td>8/9</td>
+          <td>9/9</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Font Back Wall</td>
+          <td>15/8</td>
+          <td>16/8</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Island Back Wall</td>
+          <td>22/8</td>
+          <td>23/8</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Rhino</td>
+          <td>29/8</td>
+          <td>30/8</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Comp Wall</td>
+          <td>6/10</td>
+          <td>7/10</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Islands 3+4</td>
+          <td>13/10</td>
+          <td>20/10</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Font Boulders</td>
+          <td>27/10</td>
+          <td>28/10</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Islands 1+2</td>
+          <td>03/10</td>
+          <td>04/10</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Auto Belays 1-4</td>
+          <td>-</td>
+          <td>-</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Auto Belays 5-7</td>
+          <td>7/7</td>
+          <td>8/7</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Auto Belays 8-10</td>
+          <td>-</td>
+          <td>-</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Power Tunnel</td>
+          <td>-</td>
+          <td>-</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+        <tr>
+          <td>Circuit Board</td>
+          <td>7/7</td>
+          <td>8/7</td>
+          <td>Steve T., Zo, Ed W.</td>
+        </tr>
+      </table>
+      </main>
+    </div>
+
+    <section class="coming-soon">
+      <div class="temp-section">
+        <h2>Testing Countdown</h2>
+        <div class="countdown">
+          <div class="container-day">
+            <h3 class="day">Time</h3>
+            <h3>Day</h3>
+          </div>
+          <div class="container-hour">
+            <h3 class="hour">Time</h3>
+            <h3>Hour</h3>
+          </div>
+          <div class="container-minute">
+            <h3 class="minute">Time</h3>
+            <h3>Minute</h3>
+          </div>
+          <div class="container-second">
+            <h3 class="second">Time</h3>
+            <h3>Second</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Footer -->
+     <footer class="footer">
+        <!-- <a href="mailto:hello@ket.dev" class="footer__link">hello@ket.dev</a> -->
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/shoryukn/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.facebook.com/ketz555">
+                    <i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/Ketz555">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fas fa-chess"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://my.playstation.com/profile/ketz555">
+                    <i class="fab fa-playstation"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/countdown.js"></script>
+
+</body>
+</html>
