@@ -480,6 +480,8 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    /* push footer to bottom */
+    min-height: 100vh;
 }
 
 .portfolio-item-individual p {
