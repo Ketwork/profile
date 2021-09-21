@@ -5,7 +5,7 @@
 
 /* temp */
 
-.coming-soon h2 {
+/* .coming-soon h2 {
   font-size: 5rem;
   font-weight: bold; 
   padding: 3rem;
@@ -24,5 +24,24 @@
 }
 .day,.hour,.minute,.second {
   font-size: 1rem;
-}
+} */
 /* //temp */
+
+table {
+    max-width: 100%;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+  }
+
+th {
+    background-color: #555;
+    color: #fff;
+  }
+
+th,
+td {
+text-align: left;
+padding: 0.5em 1em;
+}
