@@ -1,21 +1,41 @@
 var myArray = [
-    {'area':'Long Island Wall', 'stripdate':'Dec 9, 2021', 'resetdate':'10/12', 'timeleft':''},
-    {'area':'Font Back Wall', 'stripdate':'Oct 7, 2021', 'resetdate':'08/10', 'timeleft':'test'},
-    {'area':'Islands Back Wall', 'stripdate':'Oct 21, 2021', 'resetdate':'10/22', 'timeleft':'test'},
-    {'area':'Rhino', 'stripdate':'Sept 28, 2021', 'resetdate':'29/09', 'timeleft':'test'},
-    {'area':'Comp Wall', 'stripdate':'Sept 21, 2021', 'resetdate':'25/09', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'Nov 18, 2021', 'resetdate':'19/10', 'timeleft':''},
-    {'area':'Font Boulders', 'stripdate':'Oct 26, 2021', 'resetdate':'27/10', 'timeleft':''},
-    {'area':'Islands 1+2', 'stripdate':'Dec 02, 2021', 'resetdate':'03/12', 'timeleft':''},
-    {'area':'Power Tunnel', 'stripdate':'Oct 14, 2021', 'resetdate':'15/10', 'timeleft':''},
+    {'area':'Long Island Wall', 'stripdate':'Dec 9, 2021', 'resetdate':'10 Dec', 'timeleft':''},
+    {'area':'Font Back Wall', 'stripdate':'Oct 7, 2021', 'resetdate':'08 Oct', 'timeleft':'test'},
+    {'area':'Islands Back Wall', 'stripdate':'Oct 21, 2021', 'resetdate':'22 Oct', 'timeleft':'test'},
+    {'area':'Rhino', 'stripdate':'Sept 28, 2021', 'resetdate':'29 sept', 'timeleft':'test'},
+    {'area':'Comp Wall', 'stripdate':'Sept 21, 2021', 'resetdate':'25 sept', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'Nov 18, 2021', 'resetdate':'19 Nov', 'timeleft':''},
+    {'area':'Font Boulders', 'stripdate':'Oct 26, 2021', 'resetdate':'27 Oct', 'timeleft':''},
+    {'area':'Islands 1+2', 'stripdate':'Dec 02, 2021', 'resetdate':'03 Dec', 'timeleft':''},
+    {'area':'Power Tunnel', 'stripdate':'Oct 14, 2021', 'resetdate':'15 Oct', 'timeleft':''},
     {'area':'Circuit Board 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 5-7', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 8-10', 'stripdate':'', 'resetdate':'', 'timeleft':''},
 ]
 
+var weekday = new Array(7);
+weekday[0] = "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tues";
+weekday[3] = "Wednesday";
+weekday[4] = "Thurs";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
 
-
+var month = new Array(12);
+month[0] = "Jan";
+month[1] = "Feb";
+month[2] = "Mar";
+month[3] = "April";
+month[4] = "May";
+month[5] = "June";
+month[6] = "July";
+month[7] = "Aug";
+month[8] = "Sept";
+month[9] = "Oct";
+month[10] = "Nov";
+month[11] = "Dec";
 
 const countdown = () => {
 
@@ -26,7 +46,11 @@ const countdown = () => {
         // const countDate = new Date().getDate();
         const now = new Date().getTime();
         const gap = countDate - now;
-        
+        var d = new Date(myArray[i].stripdate);
+        var b = d.getDate();
+        var w = weekday[d.getDay()];
+        var m = month[d.getMonth()];
+        console.log(m);
 
         const second = 1000;
         const minute = second * 60;
@@ -38,9 +62,14 @@ const countdown = () => {
         const textMinute = Math.floor((gap % hour) / minute);
         const textSecond = Math.floor((gap % minute) / second);
 
-        myArray[i].timeleft = textDay + ' days';
+        myArray[i].timeleft = textDay+1 + ' days';
+        myArray[i].stripdate = w + ' ' + b + ' ' + m;
 
-        if(gap < 10000 | isNaN(textDay)) {
+        if(m == undefined || isNaN(b)) {
+            myArray[i].stripdate = '-';
+        }
+
+        if(gap < 10000 || isNaN(textDay)) {
             // when timer runs out
             myArray[i].timeleft = '-';
         }
