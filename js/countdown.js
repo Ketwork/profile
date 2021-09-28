@@ -87,6 +87,11 @@ function buildTable(data){
 
     //table is cleared each time function is called (for setInterval countdown)
     // table.innerHTML = ''
+
+    //sort in strip date order
+    data = data.sort(function(a,b){
+        return new Date(a.stripdate) - new Date(b.stripdate)
+        })
     
     for (var i = 0; i < data.length; i++){
 
