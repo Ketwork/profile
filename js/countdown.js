@@ -3,12 +3,12 @@ var myArray = [
     {'area':'Font Back Wall', 'stripdate':'Oct 6, 2021', 'resetdate':'7 Oct', 'timeleft':'test'},
     {'area':'Islands Back Wall', 'stripdate':'Oct 21, 2021', 'resetdate':'22 Oct', 'timeleft':'test'},
     {'area':'Rhino', 'stripdate':'Oct 27, 2021', 'resetdate':'28 Oct', 'timeleft':'test'},
-    {'area':'Comp Wall', 'stripdate':'', 'resetdate':'30 sept', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Dec 15, 2021', 'resetdate':'16 Dec (est.)', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Nov 18, 2021', 'resetdate':'19 Nov', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Nov 24, 2021', 'resetdate':'25 Nov', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Dec 02, 2021', 'resetdate':'3 Dec', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'Oct 13, 2021', 'resetdate':'14 Oct', 'timeleft':''},
-    {'area':'Circuit Board 1-4', 'stripdate':'Nov 11, 2021', 'resetdate':'4 Nov', 'timeleft':''},
+    {'area':'Circuit Board', 'stripdate':'Nov 11, 2021', 'resetdate':'4 Nov', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 5-7', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 8-10', 'stripdate':'', 'resetdate':'', 'timeleft':''},
@@ -62,7 +62,7 @@ const countdown = () => {
         const textMinute = Math.floor((gap % hour) / minute);
         const textSecond = Math.floor((gap % minute) / second);
 
-        myArray[i].timeleft = textDay+1 + ' days';
+        myArray[i].timeleft = textDay+1;
         myArray[i].stripdate = w + ' ' + b + ' ' + m;
 
         if(m == undefined || isNaN(b)) {
