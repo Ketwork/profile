@@ -1,13 +1,13 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Dec 9, 2021', 'resetdate':'10 Dec', 'timeleft':''},
-    {'area':'Font Back Wall', 'stripdate':'Oct 6, 2021', 'resetdate':'7 Oct', 'timeleft':'test'},
+    {'area':'Font Back Wall', 'stripdate':'Dec 22, 2021', 'resetdate':'23 Dec (est.)', 'timeleft':'test'},
     {'area':'Islands Back Wall', 'stripdate':'Oct 21, 2021', 'resetdate':'22 Oct', 'timeleft':'test'},
     {'area':'Rhino', 'stripdate':'Oct 27, 2021', 'resetdate':'28 Oct', 'timeleft':'test'},
     {'area':'Comp Wall', 'stripdate':'Dec 15, 2021', 'resetdate':'16 Dec (est.)', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Nov 18, 2021', 'resetdate':'19 Nov', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Nov 24, 2021', 'resetdate':'25 Nov', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Dec 02, 2021', 'resetdate':'3 Dec', 'timeleft':''},
-    {'area':'Power Tunnel', 'stripdate':'Oct 13, 2021', 'resetdate':'14 Oct', 'timeleft':''},
+    {'area':'Power Tunnel', 'stripdate':'Dec 29, 2021', 'resetdate':'30 Dec (est.)', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'Nov 11, 2021', 'resetdate':'4 Nov', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 5-7', 'stripdate':'', 'resetdate':'', 'timeleft':''},
@@ -100,7 +100,7 @@ function buildTable(data){
                         <td>${data[i].stripdate}</td>
                         <td>${data[i].resetdate}</td>
                         <td class="time-left">${data[i].timeleft}</td>
-                   </tr>`
+                </tr>`
         table.innerHTML += row
         
     }

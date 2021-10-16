@@ -1,6 +1,6 @@
 .main {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 table {
@@ -9,15 +9,21 @@ table {
 
 tr:nth-child(odd) {
     background-color: #eee;
-  }
+    }
 
 th {
     background-color: #555;
     color: #fff;
-  }
+    }
 
 th,
 td {
-text-align: left;
-padding: 0.5em 1em;
+    text-align: left;
+    padding: 0.5em 1em;
+}
+
+@media (max-width: 375px) {
+    .portfolio-item-individual {
+        padding: 0 0em 2em;
+    }
 }
