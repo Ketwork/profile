@@ -1,7 +1,7 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Dec 9, 2021', 'resetdate':'10 Dec', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Dec 22, 2021', 'resetdate':'23 Dec (est.)', 'timeleft':'test'},
-    {'area':'Islands Back Wall', 'stripdate':'Oct 21, 2021', 'resetdate':'22 Oct', 'timeleft':'test'},
+    {'area':'Islands Back Wall', 'stripdate':'Oct 20, 2021', 'resetdate':'22 Oct', 'timeleft':'test'},
     {'area':'Rhino', 'stripdate':'Oct 27, 2021', 'resetdate':'28 Oct', 'timeleft':'test'},
     {'area':'Comp Wall', 'stripdate':'Dec 15, 2021', 'resetdate':'16 Dec (est.)', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Nov 18, 2021', 'resetdate':'19 Nov', 'timeleft':''},
@@ -37,6 +37,7 @@ month[9] = "Oct";
 month[10] = "Nov";
 month[11] = "Dec";
 
+// COUNTDOWN
 const countdown = () => {
 
     for (var i = 0; i < myArray.length; i++) {
@@ -50,7 +51,6 @@ const countdown = () => {
         var b = d.getDate();
         var w = weekday[d.getDay()];
         var m = month[d.getMonth()];
-        console.log(m);
 
         const second = 1000;
         const minute = second * 60;
@@ -77,9 +77,29 @@ const countdown = () => {
     buildTable(myArray);
 };
 
-countdown()
+countdown();
 // setInterval(countdown, 1000);
 
+// HARROWEEN COUNTDOWN
+const harroweenCountdown = () => {
+    const countDate = new Date("Oct 29, 2021 18:00:").getTime();
+    const now = new Date().getTime();
+    const gap = countDate - now;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay = Math.floor(gap / day);
+    const textHour = Math.floor((gap % day) / hour);
+    const textMinute = Math.floor((gap % hour) / minute);
+    const textSecond = Math.floor((gap % minute) / second);
+
+    document.querySelector(".section__subtitle").innertext = textDay;
+    console.log(textMinute);
+}  
+harroweenCountdown();
 
 // BUILD TABLE
 function buildTable(data){
@@ -88,7 +108,7 @@ function buildTable(data){
     //table is cleared each time function is called (for setInterval countdown)
     // table.innerHTML = ''
 
-    //sort in strip date order
+    // * sort in strip date order *
     data = data.sort(function(a,b){
         return new Date(a.stripdate) - new Date(b.stripdate)
         })
