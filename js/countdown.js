@@ -1,7 +1,7 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Dec 9, 2021', 'resetdate':'10 Dec', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Dec 22, 2021', 'resetdate':'23 Dec (est.)', 'timeleft':'test'},
-    {'area':'Islands Back Wall', 'stripdate':'Oct 20, 2021', 'resetdate':'22 Oct', 'timeleft':'test'},
+    {'area':'Islands Back Wall', 'stripdate':'Oct 20, 2021', 'resetdate':'21 Oct', 'timeleft':'test'},
     {'area':'Rhino', 'stripdate':'Oct 27, 2021', 'resetdate':'28 Oct', 'timeleft':'test'},
     {'area':'Comp Wall', 'stripdate':'Dec 15, 2021', 'resetdate':'16 Dec (est.)', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Nov 18, 2021', 'resetdate':'19 Nov', 'timeleft':''},
@@ -91,15 +91,16 @@ const harroweenCountdown = () => {
     const hour = minute * 60;
     const day = hour * 24;
 
-    const textDay = Math.floor(gap / day);
-    const textHour = Math.floor((gap % day) / hour);
-    const textMinute = Math.floor((gap % hour) / minute);
-    const textSecond = Math.floor((gap % minute) / second);
+    const textDay = (Math.floor(gap / day)).toLocaleString(undefined, {minimumIntegerDigits:2});
+    const textHour = (Math.floor((gap % day) / hour)).toLocaleString(undefined, {minimumIntegerDigits:2});
+    const textMinute = (Math.floor((gap % hour) / minute)).toLocaleString(undefined, {minimumIntegerDigits:2});
+    const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
-    document.querySelector(".section__subtitle").innertext = textDay;
-    console.log(textMinute);
+    document.querySelector('.section__subtitle').innerText = '🎃 Harroween in: ' + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    
 }  
-harroweenCountdown();
+
+setInterval(harroweenCountdown, 1000);
 
 // BUILD TABLE
 function buildTable(data){
