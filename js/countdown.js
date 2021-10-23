@@ -96,7 +96,7 @@ const harroweenCountdown = () => {
     const textMinute = (Math.floor((gap % hour) / minute)).toLocaleString(undefined, {minimumIntegerDigits:2});
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
-    document.querySelector('.section__subtitle').innerText = '🎃 Harroween in: ' + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🎃 Harroween '21 🎃 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     
 }  
 
