@@ -18,6 +18,7 @@
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
     
+    
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -25,7 +26,7 @@
 
     /* two layer shadow */
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
-          0.125em 0.125em 0.25em rgba(0,0,0,.15);;
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);;
 }
 
 @media (min-width: 900px) {
