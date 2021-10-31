@@ -80,9 +80,9 @@ const countdown = () => {
 countdown();
 // setInterval(countdown, 1000);
 
-// HARROWEEN COUNTDOWN
+// EVENT COUNTDOWN
 const harroweenCountdown = () => {
-    const countDate = new Date("Oct 29, 2021 18:00:").getTime();
+    const countDate = new Date("Nov 2, 2021 23:00:").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
@@ -96,7 +96,7 @@ const harroweenCountdown = () => {
     const textMinute = (Math.floor((gap % hour) / minute)).toLocaleString(undefined, {minimumIntegerDigits:2});
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
-    document.querySelector('.section__subtitle').innerText = "🎃 Harroween '21 🎃 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🦖Dyno wall is up until " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     
 }  
 
