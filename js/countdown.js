@@ -37,7 +37,7 @@ month[9] = "Oct";
 month[10] = "Nov";
 month[11] = "Dec";
 
-// COUNTDOWN
+// DAYS COUNTDOWN
 const countdown = () => {
 
     for (var i = 0; i < myArray.length; i++) {
@@ -81,26 +81,25 @@ countdown();
 // setInterval(countdown, 1000);
 
 // EVENT COUNTDOWN
-const harroweenCountdown = () => {
-    const countDate = new Date("Nov 2, 2021 23:00:").getTime();
-    const now = new Date().getTime();
-    const gap = countDate - now;
+// const harroweenCountdown = () => {
+//     const countDate = new Date("Nov 2, 2021 23:00:").getTime();
+//     const now = new Date().getTime();
+//     const gap = countDate - now;
 
-    const second = 1000;
-    const minute = second * 60;
-    const hour = minute * 60;
-    const day = hour * 24;
+//     const second = 1000;
+//     const minute = second * 60;
+//     const hour = minute * 60;
+//     const day = hour * 24;
 
-    const textDay = (Math.floor(gap / day)).toLocaleString(undefined, {minimumIntegerDigits:2});
-    const textHour = (Math.floor((gap % day) / hour)).toLocaleString(undefined, {minimumIntegerDigits:2});
-    const textMinute = (Math.floor((gap % hour) / minute)).toLocaleString(undefined, {minimumIntegerDigits:2});
-    const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
+//     const textDay = (Math.floor(gap / day)).toLocaleString(undefined, {minimumIntegerDigits:2});
+//     const textHour = (Math.floor((gap % day) / hour)).toLocaleString(undefined, {minimumIntegerDigits:2});
+//     const textMinute = (Math.floor((gap % hour) / minute)).toLocaleString(undefined, {minimumIntegerDigits:2});
+//     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
-    document.querySelector('.section__subtitle').innerText = "🦖Dyno wall is up until " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+//     document.querySelector('.section__subtitle').innerText = "🦖Dyno wall is up until " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     
-}  
-
-setInterval(harroweenCountdown, 1000);
+// }  
+// setInterval(harroweenCountdown, 1000);
 
 // BUILD TABLE
 function buildTable(data){
