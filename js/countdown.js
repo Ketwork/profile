@@ -3,7 +3,7 @@ var myArray = [
     {'area':'Font Back Wall', 'stripdate':'Dec 22, 2021', 'resetdate':'23 Dec (est.)', 'timeleft':'test'},
     {'area':'Islands Back Wall', 'stripdate':'Oct 20, 2021', 'resetdate':'21 Oct', 'timeleft':'test'},
     {'area':'Rhino', 'stripdate':'Oct 27, 2021', 'resetdate':'28 Oct', 'timeleft':'test'},
-    {'area':'Comp Wall', 'stripdate':'Dec 15, 2021', 'resetdate':'16 Dec (est.)', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Nov 11, 2021', 'resetdate':'13 Nov (est.)', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Nov 18, 2021', 'resetdate':'19 Nov', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Nov 24, 2021', 'resetdate':'25 Nov', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Dec 02, 2021', 'resetdate':'3 Dec', 'timeleft':''},
@@ -97,7 +97,7 @@ const harroweenCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🧗HARROCOMP!🧗 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🧗HARROCOMP!🏆 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(harroweenCountdown, 1000);
