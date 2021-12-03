@@ -7,7 +7,7 @@ var myArray = [
     {'area':'Islands 3+4', 'stripdate':'Nov 18, 2021', 'resetdate':'19 Nov', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Nov 24, 2021', 'resetdate':'25 Nov', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Dec 01, 2021', 'resetdate':'2 Dec', 'timeleft':''},
-    {'area':'Power Tunnel', 'stripdate':'Dec 29, 2021', 'resetdate':'30 Dec (est.)', 'timeleft':''},
+    {'area':'Power Tunnel', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'Nov 3, 2021', 'resetdate':'4 Nov', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 5-7', 'stripdate':'', 'resetdate':'', 'timeleft':''},
