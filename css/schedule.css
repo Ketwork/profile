@@ -22,6 +22,14 @@ td {
     padding: 0.5em 1em;
 }
 
+.intro__img--schedule {
+  border-radius: 50%;
+}
+
+.intro {
+  text-align: center;
+}
+
 @media (max-width: 375px) {
     .portfolio-item-individual {
         padding: 0 0em 2em;
