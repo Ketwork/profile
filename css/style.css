@@ -104,6 +104,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .25em;
+    /* text-align: left; */
 }
 
 .section__title--intro {
@@ -245,14 +246,14 @@ header {
 
 .intro {
     position: relative;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .intro__img {
     box-shadow: var(--bs);
     width: 150px;
     margin: auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 } 
 
 .social-list {
@@ -304,6 +305,10 @@ header {
         position: relative;
         z-index: 2;
     }    
+
+    .section__title {
+      /* text-align: left; */
+  }
     
     .section__subtitle--intro {
         align-self: start;
