@@ -8,7 +8,7 @@ var myArray = [
     {'area':'Font Boulders', 'stripdate':'Feb 16, 2022', 'resetdate':'17 Feb', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Feb 23, 2022', 'resetdate':'24 Feb', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'', 'resetdate':'', 'timeleft':''},
-    {'area':'Circuit Board', 'stripdate':'Feb 06, 2022', 'resetdate':'06 Feb', 'timeleft':''},
+    {'area':'Circuit Board', 'stripdate':'Jan 06, 2022', 'resetdate':'06 Jan', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 5-7', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 8-10', 'stripdate':'', 'resetdate':'', 'timeleft':''},
