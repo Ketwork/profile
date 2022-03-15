@@ -2,7 +2,7 @@ var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Mar 02, 2022', 'resetdate':'03 Mar', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Mar 09, 2022', 'resetdate':'10 Mar', 'timeleft':''},
     {'area':'Islands Back Wall', 'stripdate':'Mar 30, 2022', 'resetdate':'31 Mar', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'Mar 13, 2022', 'resetdate':'14 Mar', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'Apr 13, 2022', 'resetdate':'14 Apr', 'timeleft':''},
     {'area':'Comp Wall', 'stripdate':'Mar 17, 2022', 'resetdate':'18 Mar', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'March 20, 2022', 'resetdate':'21 Mar', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Apr 06, 2022', 'resetdate':'07 Apr (est.)', 'timeleft':''},
