@@ -82,7 +82,7 @@ countdown();
 
 // EVENT COUNTDOWN
 const harroweenCountdown = () => {
-    const countDate = new Date("March 19, 2022 13:00:").getTime();
+    const countDate = new Date("May 7, 2022 13:00:").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
@@ -97,7 +97,7 @@ const harroweenCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🧗HARROCOMP! " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🧗London Climbing Festival " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(harroweenCountdown, 1000);
