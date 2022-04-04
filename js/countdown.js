@@ -1,13 +1,13 @@
 var myArray = [
-    {'area':'Long Island Wall', 'stripdate':'Mar 02, 2022', 'resetdate':'03 Mar', 'timeleft':''},
+    {'area':'Long Island Wall', 'stripdate':'May 18, 2022', 'resetdate':'19 May', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Mar 09, 2022', 'resetdate':'10 Mar', 'timeleft':''},
     {'area':'Islands Back Wall', 'stripdate':'Mar 30, 2022', 'resetdate':'31 Mar', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'Apr 13, 2022', 'resetdate':'14 Apr', 'timeleft':''},
     {'area':'Comp Wall', 'stripdate':'Mar 17, 2022', 'resetdate':'18 Mar', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'March 20, 2022', 'resetdate':'21 Mar', 'timeleft':''},
-    {'area':'Font Boulders', 'stripdate':'Apr 06, 2022', 'resetdate':'07 Apr (est.)', 'timeleft':''},
-    {'area':'Islands 1+2', 'stripdate':'Feb 23, 2022', 'resetdate':'24 Feb', 'timeleft':''},
-    {'area':'Power Tunnel', 'stripdate':'', 'resetdate':'', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'April 20, 2022', 'resetdate':'21 April', 'timeleft':''},
+    {'area':'Font Boulders', 'stripdate':'Apr 27, 2022', 'resetdate':'28 Apr', 'timeleft':''},
+    {'area':'Islands 1+2', 'stripdate':'May 11, 2022', 'resetdate':'12 May', 'timeleft':''},
+    {'area':'Power Tunnel', 'stripdate':'March 03', 'resetdate':'24 Mar', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'Mar 23, 2022', 'resetdate':'24 Mar', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 5-7', 'stripdate':'', 'resetdate':'', 'timeleft':''},
@@ -39,7 +39,6 @@ month[11] = "Dec";
 
 // DAYS COUNTDOWN
 const countdown = () => {
-
     for (var i = 0; i < myArray.length; i++) {
         // getTime returns the time in milliseconds 
         // const countDate = new Date("Sept 15, 2021 00:00:").getTime();
