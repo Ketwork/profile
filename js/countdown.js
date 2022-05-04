@@ -1,17 +1,17 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'May 18, 2022', 'resetdate':'19 May', 'timeleft':''},
-    {'area':'Font Back Wall', 'stripdate':'Mar 09, 2022', 'resetdate':'10 Mar', 'timeleft':''},
-    {'area':'Islands Back Wall', 'stripdate':'Mar 30, 2022', 'resetdate':'31 Mar', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'Apr 13, 2022', 'resetdate':'14 Apr', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'Mar 17, 2022', 'resetdate':'18 Mar', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'April 20, 2022', 'resetdate':'21 April', 'timeleft':''},
+    {'area':'Font Back Wall', 'stripdate':'May 25, 2022', 'resetdate':'26 May', 'timeleft':''},
+    {'area':'Islands Back Wall', 'stripdate':'June 08, 2022', 'resetdate':'09 June est', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'June 15, 2022', 'resetdate':'16 June est', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'May 04, 2022', 'resetdate':'08 May', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'june 22, 2022', 'resetdate':'23 June est', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Apr 27, 2022', 'resetdate':'28 Apr', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'May 11, 2022', 'resetdate':'12 May', 'timeleft':''},
-    {'area':'Power Tunnel', 'stripdate':'March 03', 'resetdate':'24 Mar', 'timeleft':''},
-    {'area':'Circuit Board', 'stripdate':'Mar 23, 2022', 'resetdate':'24 Mar', 'timeleft':''},
+    {'area':'Power Tunnel', 'stripdate':'June 01 2022', 'resetdate':'02 June est', 'timeleft':''},
+    {'area':'Circuit Board', 'stripdate':'', 'resetdate':'24 Mar', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
-    {'area':'Auto Belays 5-7', 'stripdate':'', 'resetdate':'', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'', 'resetdate':'', 'timeleft':''},
+    {'area':'Auto Belays 6-7', 'stripdate':'May 12 2022', 'resetdate':'09 May', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'May 12 2022', 'resetdate':'13 May', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
