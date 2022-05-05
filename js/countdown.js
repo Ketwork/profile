@@ -10,7 +10,7 @@ var myArray = [
     {'area':'Power Tunnel', 'stripdate':'June 01 2022', 'resetdate':'02 June (est)', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'', 'resetdate':'24 Mar', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
-    {'area':'Auto Belays 6-7', 'stripdate':'May 12 2022', 'resetdate':'09 May', 'timeleft':''},
+    {'area':'Auto Belays 6-7', 'stripdate':'May 08 2022', 'resetdate':'09 May', 'timeleft':''},
     {'area':'Auto Belays 8-10', 'stripdate':'May 12 2022', 'resetdate':'13 May', 'timeleft':''},
 ]
 
