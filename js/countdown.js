@@ -80,10 +80,10 @@ countdown();
 // setInterval(countdown, 1000);
 
 // EVENT COUNTDOWN
-const harroweenCountdown = () => {
-    const countDate = new Date("May 7, 2022 13:00:").getTime();
+const eventCountdown = () => {
+    const eventDate = new Date("June 11, 2022 13:00:").getTime();
     const now = new Date().getTime();
-    const gap = countDate - now;
+    const gap = eventDate - now;
 
     const second = 1000;
     const minute = second * 60;
@@ -96,10 +96,10 @@ const harroweenCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🧗London Climbing Festival " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🧗The League Finals " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
-setInterval(harroweenCountdown, 1000);
+setInterval(eventCountdown, 1000);
 
 // BUILD TABLE
 function buildTable(data){
