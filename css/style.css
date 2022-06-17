@@ -363,13 +363,14 @@ header {
 @media (min-width: 800px) {
     .services {
         display: flex;
-        max-width: 900px;
+        max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
     /* adds space between two elements that are next to each other*/
     .service + .service {
-        margin-left: 2em;
+        margin-left: 4em;
+        margin-right: -1em;
     }
 }
 
