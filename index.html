@@ -12,6 +12,9 @@
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 
+    <!-- css -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -43,7 +46,7 @@
         <p class="section__subtitle section__subtitle--intro">front-end dev</p>
     </section>
     
-    <!-- My services -->
+    <!-- My Services -->
     <section class="my-services" id="services">
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
@@ -54,7 +57,7 @@
             Bootstrap is my go to css framework. 
           </p>
         </div>
-        <!-- / service -->
+        <!-- End My Services -->
 
         <div class="service">
           <h3>Back-end</h3>
@@ -78,6 +81,10 @@
       <!-- / services -->
 
       <a href="#work" class="btn">My Work</a>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
     </section>
 
     <!-- About me -->
@@ -108,7 +115,8 @@
         class="about-me__img"
       />
     </section>
-    
+    <!-- End About me -->
+
     <!-- My Projects -->
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">Projects</h2>
@@ -116,48 +124,53 @@
         
         <div class="portfolio">
             <!-- Portfolio item 01 -->
-            <a href="https://ketwork.github.io/profile/schedule.html" class="portfolio__item">
-                <img src="img/harrowall01.png" alt="" class="portfolio__img">
+            <a class="portfolio__item">
+                <img src="img/harrowall01.png" alt="schedule image" class="portfolio__img" data-bs-toggle="modal" data-bs-target="#exampleModal">
             </a>
             
             <!-- Portfolio item 02 -->
             <a href="https://apeindex.glitch.me/" class="portfolio__item">
-                <img src="img/ape02.jpeg" alt="" class="portfolio__img">
+                <img src="img/ape02.jpeg" alt="ape index image" class="portfolio__img">
             </a>
 
             <!-- Portfolio item 03 -->
             <a href="https://ketwork.github.io/RPG-Game" class="portfolio__item">
-              <img src="img/game.jpg" alt="" class="portfolio__img">
+              <img src="img/game.jpg" alt="game character image" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 04 -->
             <a href="https://the-weather-here-ket.glitch.me/" class="portfolio__item">
-                <img src="img/weather01.jpeg" alt="" class="portfolio__img">
+                <img src="img/weather01.jpeg" alt="weather app image" class="portfolio__img">
             </a>
-
+            
             <!-- Portfolio item 05 -->
             <a href="https://dreamy-brahmagupta-d14550.netlify.app/" class="portfolio__item">
-                <img src="img/currency03.jpg" alt="" class="portfolio__img">
+                <img src="img/currency03.jpg" alt="currency image" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 06 -->
             <a href="https://api-projects-portfolio.herokuapp.com/" class="portfolio__item">
-              <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+              <img src="img/portfolio-08.jpg" alt="image for api projects" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 07 -->
             <a href="https://solrikweda.wixsite.com/bloodsweatchokes" class="portfolio__item">
-                <img src="img/blood.jpeg" alt="" class="portfolio__img">
+                <img src="img/blood.jpeg" alt="movie poster image" class="portfolio__img">
             </a>
             
             <!-- Portfolio item 08 -->
             <a href="https://www.imdb.com/title/tt10065156/" class="portfolio__item">
-                <img src="img/onlyvoice3.png" alt="" class="portfolio__img">
+                <img src="img/onlyvoice3.png" alt="movie poster image" class="portfolio__img">
             </a>
             
+            <!-- Portfolio item 09 -->
+            <a  class="portfolio__item">
+              <img src="img/onlyvoice3.png" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="movie poster image" class="portfolio__img">
+            </a>
             
         </div>
     </section>
+    <!-- End My Projects -->
 
     <!-- Footer -->
     <footer class="footer" id="links">
@@ -189,7 +202,31 @@
           </li>
       </ul>
     </footer>
+    <!-- End Footer -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Route setting schedule</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/img/harrowall01.png" alt="schedule image" class="img-fluid">
+            <p class="text-center">A route setting schedule for local climbing gym. Build using HTML, CSS, Java-script, Bootstrap </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a role="button" class="btn btn-dark" href="https://ketwork.github.io/profile/schedule.html" target="_blank">To the app!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 
 </body>
