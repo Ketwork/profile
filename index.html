@@ -79,7 +79,7 @@
       </div>
       <!-- / services -->
 
-      <a href="#work" class="btn">My Work</a>
+      <a href="#work" class="btn1">My Work</a>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Launch demo modal
@@ -124,11 +124,11 @@
         <div class="portfolio">
             <!-- Portfolio item 01 -->
             <a class="portfolio__item">
-                <img src="img/harrowall01.png" alt="schedule image" class="portfolio__img" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="img/harrowall01.png" alt="schedule image" class="portfolio__img" data-bs-toggle="modal" data-bs-target="#scheduleModal">
             </a>
             
             <!-- Portfolio item 02 -->
-            <a href="https://apeindex.glitch.me/" class="portfolio__item">
+            <a href="https://apeindex.glitch.me/" class="portfolio__item" data-bs-toggle="modal" data-bs-target="#apeIndexModal">
                 <img src="img/ape02.jpeg" alt="ape index image" class="portfolio__img">
             </a>
 
@@ -203,25 +203,28 @@
     </footer>
     <!-- End Footer -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- === Modals === -->
+    <!-- Schedule Modal -->
+    <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="scheduelModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Route setting schedule</h5>
+            <h5 class="modal-title fw-bold" >Route setting schedule website</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <img src="/img/harrowall01.png" alt="schedule image" class="img-fluid">
-            <p class="text-center">A route setting schedule for local climbing gym. Build using HTML, CSS, Java-script, Bootstrap </p>
+            <p class="text-center fs-5 pt-2">A route setting schedule for local climbing gym. Built using HTML, CSS, Java-Script, Bootstrap </p>
           </div>
           <div class="modal-footer justify-content-center">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <a role="button" class="btn btn-dark" href="https://ketwork.github.io/profile/schedule.html" target="_blank">To the app!</a>
+            <a role="button" class="btn btn-secondary" href="https://github.com/Ketwork/profile" target="_blank">Github</a>
+            <a role="button" class="btn btn-success" href="https://ketwork.github.io/profile/schedule.html" target="_blank">To the App!</a>
           </div>
         </div>
       </div>
     </div>
+    
+    <!-- End Modals -->
 
 
     <!-- JavaScript Bundle with Popper -->
