@@ -80,10 +80,6 @@
       <!-- / services -->
 
       <a href="#work" class="btn1">My Work</a>
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
-      </button>
     </section>
 
     <!-- About me -->
@@ -123,17 +119,17 @@
         
         <div class="portfolio">
             <!-- Portfolio item 01 -->
-            <a class="portfolio__item">
-                <img src="img/harrowall01.png" alt="schedule image" class="portfolio__img" data-bs-toggle="modal" data-bs-target="#scheduleModal">
+            <a class="portfolio__item" data-bs-toggle="modal" data-bs-target="#scheduleModal">
+                <img src="img/harrowall01.png" alt="schedule image" class="portfolio__img" >
             </a>
             
             <!-- Portfolio item 02 -->
-            <a href="https://apeindex.glitch.me/" class="portfolio__item" data-bs-toggle="modal" data-bs-target="#apeIndexModal">
+            <a class="portfolio__item" data-bs-toggle="modal" data-bs-target="#apeIndexModal">
                 <img src="img/ape02.jpeg" alt="ape index image" class="portfolio__img">
             </a>
 
             <!-- Portfolio item 03 -->
-            <a href="https://ketwork.github.io/RPG-Game" class="portfolio__item">
+            <a href="https://ketwork.github.io/RPG-Game" class="portfolio__item" data-bs-toggle="modal" data-bs-target="#gameModal">
               <img src="img/game.jpg" alt="game character image" class="portfolio__img">
             </a>
             
@@ -160,11 +156,6 @@
             <!-- Portfolio item 08 -->
             <a href="https://www.imdb.com/title/tt10065156/" class="portfolio__item">
                 <img src="img/onlyvoice3.png" alt="movie poster image" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 09 -->
-            <a  class="portfolio__item">
-              <img src="img/onlyvoice3.png" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="movie poster image" class="portfolio__img">
             </a>
             
         </div>
@@ -219,6 +210,121 @@
           <div class="modal-footer justify-content-center">
             <a role="button" class="btn btn-secondary" href="https://github.com/Ketwork/profile" target="_blank">Github</a>
             <a role="button" class="btn btn-success" href="https://ketwork.github.io/profile/schedule.html" target="_blank">To the App!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ape Index Modal -->
+    <div class="modal fade" id="apeIndexModal" tabindex="-1" aria-labelledby="apeIndexModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" >Ape Index Calculator</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/img/ape02.jpeg" alt="schedule image" class="img-fluid">
+            <p class="text-center fs-5 pt-2">A route setting schedule for local climbing gym. Built using HTML, CSS, Java-Script, Bootstrap </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <a role="button" class="btn btn-secondary" href="https://github.com/Ketwork/apeindex" target="_blank">Github</a>
+            <a role="button" class="btn btn-success" href="https://apeindex.glitch.me/" target="_blank">To the App!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Game Modal -->
+    <div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" >RPG game</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/img/game.jpg" alt="schedule image" class="img-fluid">
+            <p class="text-center fs-5 pt-2">A route setting schedule for local climbing gym. Built using HTML, CSS, Java-Script, Bootstrap </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <a role="button" class="btn btn-secondary" href="https://github.com/Ketwork/apeindex" target="_blank">Github</a>
+            <a role="button" class="btn btn-success" href="https://ketwork.github.io/RPG-Game" target="_blank">To the App!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Weather Modal -->
+    <div class="modal fade" id="weatherModal" tabindex="-1" aria-labelledby="weatherModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" >The Weather Here App</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/img/ape02.jpeg" alt="schedule image" class="img-fluid">
+            <p class="text-center fs-5 pt-2">A route setting schedule for local climbing gym. Built using HTML, CSS, Java-Script, Bootstrap </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <a role="button" class="btn btn-secondary" href="https://github.com/Ketwork/apeindex" target="_blank">Github</a>
+            <a role="button" class="btn btn-success" href="https://the-weather-here-ket.glitch.me/" target="_blank">To the App!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Currency convertor Modal -->
+    <div class="modal fade" id="currencyModal" tabindex="-1" aria-labelledby="currencyModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" >Currecny Convertor</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/img/ape02.jpeg" alt="schedule image" class="img-fluid">
+            <p class="text-center fs-5 pt-2">A route setting schedule for local climbing gym. Built using HTML, CSS, Java-Script, Bootstrap </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <a role="button" class="btn btn-secondary" href="https://github.com/Ketwork/apeindex" target="_blank">Github</a>
+            <a role="button" class="btn btn-success" href="https://the-weather-here-ket.glitch.me/" target="_blank">To the App!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- API code challenges modal -->
+    <div class="modal fade" id="apiModal" tabindex="-1" aria-labelledby="apiModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" >API projects</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/img/ape02.jpeg" alt="schedule image" class="img-fluid">
+            <p class="text-center fs-5 pt-2">A route setting schedule for local climbing gym. Built using HTML, CSS, Java-Script, Bootstrap </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <a role="button" class="btn btn-secondary" href="https://github.com/Ketwork/apeindex" target="_blank">Github</a>
+            <a role="button" class="btn btn-success" href="https://the-weather-here-ket.glitch.me/" target="_blank">To the App!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Film Project 1 modal -->
+    <div class="modal fade" id="film1Modal" tabindex="-1" aria-labelledby="film1ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" >Film Project</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/img/ape02.jpeg" alt="schedule image" class="img-fluid">
+            <p class="text-center fs-5 pt-2">A route setting schedule for local climbing gym. Built using HTML, CSS, Java-Script, Bootstrap </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <a role="button" class="btn btn-secondary" href="https://github.com/Ketwork/apeindex" target="_blank">Github</a>
+            <a role="button" class="btn btn-success" href="https://the-weather-here-ket.glitch.me/" target="_blank">To the App!</a>
           </div>
         </div>
       </div>
