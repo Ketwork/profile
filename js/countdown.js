@@ -1,6 +1,6 @@
 var myArray = [
-    {'area':'Long Island Wall', 'stripdate':'May 18, 2022', 'resetdate':'19 May', 'timeleft':''},
-    {'area':'Font Back Wall', 'stripdate':'May 25, 2022', 'resetdate':'26 May', 'timeleft':''},
+    {'area':'Long Island Wall', 'stripdate':'Aug 03 , 2022', 'resetdate':'04 Aug', 'timeleft':''},
+    {'area':'Font Back Wall', 'stripdate':'Aug 10, 2022', 'resetdate':'11 Aug', 'timeleft':''},
     {'area':'Islands Back Wall', 'stripdate':'June 29, 2022', 'resetdate':'30 June', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'July 06, 2022', 'resetdate':'07 July', 'timeleft':''},
     {'area':'Comp Wall', 'stripdate':'June 08, 2022', 'resetdate':'09 June', 'timeleft':''},
@@ -81,7 +81,7 @@ countdown();
 
 // EVENT COUNTDOWN
 const eventCountdown = () => {
-    const eventDate = new Date("June 11, 2022 13:00:").getTime();
+    const eventDate = new Date("Aug 20, 2022 13:00:").getTime();
     const now = new Date().getTime();
     const gap = eventDate - now;
 
@@ -96,7 +96,7 @@ const eventCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🧗The League Finals " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🏝️Summer Party Comp🍦 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(eventCountdown, 1000);
@@ -112,7 +112,14 @@ function buildTable(data){
     data = data.sort(function(a,b){
         return new Date(a.stripdate) - new Date(b.stripdate)
         })
-    
+
+    // * sort in time left order *
+    // data = data.sort(function(a,b){
+    //   return (a.timeleft) - (b.timeleft)
+    // })
+        
+    console.log(data);
+
     for (var i = 0; i < data.length; i++){
 
         var row = `<tr>
