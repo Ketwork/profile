@@ -2,16 +2,16 @@ var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Aug 03 , 2022', 'resetdate':'04 Aug', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Aug 10, 2022', 'resetdate':'11 Aug', 'timeleft':''},
     {'area':'Islands Back Wall', 'stripdate':'Aug 24, 2022', 'resetdate':'25 Aug', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'July 06, 2022', 'resetdate':'07 July', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'June 08, 2022', 'resetdate':'09 June', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'july 13, 2022', 'resetdate':'14 July', 'timeleft':''},
-    {'area':'Font Boulders', 'stripdate':'July 20, 2022', 'resetdate':'21 July', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'Aug 31, 2022', 'resetdate':'01 Sept', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Sept 21, 2022', 'resetdate':'26 Sept', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'Sept 07, 2022', 'resetdate':'08 Sept', 'timeleft':''},
+    {'area':'Font Boulders', 'stripdate':'Sept 28, 2022', 'resetdate':'29 Sept', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'July 27, 2022', 'resetdate':'28 July', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'', 'resetdate':'', 'timeleft':''},
-    {'area':'Circuit Board', 'stripdate':'', 'resetdate':'24 Mar', 'timeleft':''},
-    {'area':'Auto Belays 1-4', 'stripdate':'', 'resetdate':'', 'timeleft':''},
-    {'area':'Auto Belays 6-7', 'stripdate':'', 'resetdate':'09 May', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'', 'resetdate':'13 May', 'timeleft':''},
+    {'area':'Circuit Board', 'stripdate':'', 'resetdate':'', 'timeleft':''},
+    {'area':'Auto Belays 1-4', 'stripdate':'Sept 09, 2022', 'resetdate':'09 Sept', 'timeleft':''},
+    {'area':'Auto Belays 6-7', 'stripdate':'Sept 12, 2022', 'resetdate':'12 sept', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'Sept 19, 2022', 'resetdate':'19 Sept', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
@@ -21,7 +21,7 @@ weekday[2] = "Tuesday";
 weekday[3] = "Wednesday";
 weekday[4] = "Thursday";
 weekday[5] = "Friday";
-weekday[6] = "Saturday";
+weekday[6] = "Saturday"; 
 
 var month = new Array(12);
 month[0] = "Jan";
@@ -81,7 +81,7 @@ countdown();
 
 // EVENT COUNTDOWN
 const eventCountdown = () => {
-    const eventDate = new Date("Aug 20, 2022 13:00:").getTime();
+    const eventDate = new Date("Sept 24, 2022 13:00:").getTime();
     const now = new Date().getTime();
     const gap = eventDate - now;
 
@@ -96,7 +96,7 @@ const eventCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🏝️Summer Party Comp🍦 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🏆The Big Comp🏆 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(eventCountdown, 1000);
