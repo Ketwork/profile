@@ -109,19 +109,27 @@ function buildTable(data){
     // table.innerHTML = ''
 
     // * sort in strip date order *
-    data = data.sort(function(a,b){
-        return new Date(a.stripdate) - new Date(b.stripdate)
-        })
-
-    // * sort in time left order *
     // data = data.sort(function(a,b){
-    //   return (a.timeleft) - (b.timeleft)
-    // }).filter(num => num.timeleft > 0)
+    //   return new Date(a.stripdate) - new Date(b.stripdate);
+    // });
+
+    // sort data by days left (if >= 0)
+    let timeSortedData = data.sort(function(a,b){
+      return (a.timeleft) - (b.timeleft)
+    }).filter(num => num.timeleft >= 0)
+
+    // sort rest of data by strip date
+    let stripSortedData = data.sort(function(a,b){
+        return new Date(a.stripdate) - new Date(b.stripdate);
+    }).filter(num => isNaN(num.timeleft));
+
+    // combine both sets of data
+    data = timeSortedData.concat(stripSortedData)
         
-    console.log(data);
+    // console.log(timeSortedData);
 
+    // build table
     for (var i = 0; i < data.length; i++){
-
         var row = `<tr>
                         <td>${data[i].area}</td>
                         <td>${data[i].stripdate}</td>
