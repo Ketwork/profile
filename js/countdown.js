@@ -81,7 +81,7 @@ countdown();
 
 // EVENT COUNTDOWN
 const eventCountdown = () => {
-    const eventDate = new Date("Sept 24, 2022 13:00:").getTime();
+    const eventDate = new Date("Oct 28, 2022 13:00:").getTime();
     const now = new Date().getTime();
     const gap = eventDate - now;
 
@@ -96,7 +96,7 @@ const eventCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🏆The Big Comp🏆 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🎃Harroween👻 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(eventCountdown, 1000);
@@ -114,9 +114,9 @@ function buildTable(data){
     // });
 
     // sort data by days left (if >= 0)
-    let timeSortedData = data.sort(function(a,b){
-      return (a.timeleft) - (b.timeleft)
-    }).filter(num => num.timeleft >= 0)
+    let timeSortedData = data.filter(num => num.timeleft >= 0).sort(function(a,b){
+      return (a.timeleft) - (b.timeleft);
+    });
 
     // sort rest of data by strip date
     let stripSortedData = data.sort(function(a,b){
@@ -124,9 +124,9 @@ function buildTable(data){
     }).filter(num => isNaN(num.timeleft));
 
     // combine both sets of data
-    data = timeSortedData.concat(stripSortedData)
+    data = timeSortedData.concat(stripSortedData);
         
-    // console.log(timeSortedData);
+    // console.log(data[0].timeleft);
 
     // build table
     for (var i = 0; i < data.length; i++){
