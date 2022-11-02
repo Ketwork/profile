@@ -72,7 +72,6 @@ const countdown = () => {
             // when timer runs out
             myArray[i].timeleft = '-';
         }
-        console.log(gap)
     }
     buildTable(myArray);
 };
