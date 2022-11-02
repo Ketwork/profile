@@ -1,13 +1,13 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Oct 12 , 2022', 'resetdate':'13 Oct', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Oct 19, 2022', 'resetdate':'20 Oct', 'timeleft':''},
-    {'area':'Islands Back Wall', 'stripdate':'Aug 24, 2022', 'resetdate':'25 Aug', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'Aug 31, 2022', 'resetdate':'01 Sept', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'Oct 26, 2022', 'resetdate':'28 Oct', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'Sept 07, 2022', 'resetdate':'08 Sept', 'timeleft':''},
+    {'area':'Islands Back Wall', 'stripdate':'Nov 2, 2022', 'resetdate':'03 Nov', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'Nov 09, 2022', 'resetdate':'10 Nov', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Nov 23, 2022', 'resetdate':'24 Nov', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'Nov 16, 2022', 'resetdate':'17 Nov', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Sept 28, 2022', 'resetdate':'29 Sept', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Oct 5, 2022', 'resetdate':'06 Oct', 'timeleft':''},
-    {'area':'Power Tunnel', 'stripdate':'July, 2022', 'resetdate':'', 'timeleft':''},
+    {'area':'Power Tunnel', 'stripdate':'Nov 03, 2022', 'resetdate':'04 Nov', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'Aug , 2022', 'resetdate':'', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'Sept 09, 2022', 'resetdate':'09 Sept', 'timeleft':''},
     {'area':'Auto Belays 6-7', 'stripdate':'Sept 12, 2022', 'resetdate':'12 Sept', 'timeleft':''},
@@ -68,10 +68,11 @@ const countdown = () => {
             myArray[i].stripdate = '-';
         }
 
-        if(gap < 10000 || isNaN(textDay)) {
+        if(gap < -86400000 || isNaN(textDay)) {
             // when timer runs out
             myArray[i].timeleft = '-';
         }
+        console.log(gap)
     }
     buildTable(myArray);
 };
