@@ -3,7 +3,7 @@ var myArray = [
     {'area':'Font Back Wall', 'stripdate':'Dec 21, 2022', 'resetdate':'22 Dec', 'timeleft':''},
     {'area':'Islands Back Wall', 'stripdate':'Jan 11, 2023', 'resetdate':'12 Jan', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'Nov 09, 2022', 'resetdate':'10 Nov', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'Dec 17, 2022', 'resetdate':'17 Dec', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Dec 14, 2022', 'resetdate':'17 Dec', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Nov 16, 2022', 'resetdate':'17 Nov', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Nov 30, 2022', 'resetdate':'1 Dec', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Dec 7, 2022', 'resetdate':'08 Dec', 'timeleft':''},
@@ -81,7 +81,7 @@ countdown();
 
 // EVENT COUNTDOWN
 const eventCountdown = () => {
-    const eventDate = new Date("Oct 28, 2022 13:00:").getTime();
+    const eventDate = new Date("Dec 17, 2022 13:00:").getTime();
     const now = new Date().getTime();
     const gap = eventDate - now;
 
@@ -96,7 +96,7 @@ const eventCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🎃Harroween👻 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🎄BLOKFEST🏆 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(eventCountdown, 1000);
