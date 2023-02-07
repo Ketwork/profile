@@ -1,17 +1,17 @@
 var myArray = [
-    {'area':'Long Island Wall', 'stripdate':'Dec 14 , 2022', 'resetdate':'15 Dec', 'timeleft':''},
-    {'area':'Font Back Wall', 'stripdate':'Dec 21, 2022', 'resetdate':'22 Dec', 'timeleft':''},
-    {'area':'Islands Back Wall', 'stripdate':'Jan 4, 2023', 'resetdate':'5 Jan', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'Jan 12, 2023', 'resetdate':'13 Jan', 'timeleft':''},
+    {'area':'Long Island Wall', 'stripdate':'Feb 15 , 2023', 'resetdate':'16 Feb', 'timeleft':''},
+    {'area':'Font Back Wall', 'stripdate':'Feb 22, 2023', 'resetdate':'23 Feb', 'timeleft':''},
+    {'area':'Islands Back Wall', 'stripdate':'March 3, 2023', 'resetdate':'2 March', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'March 08, 2023', 'resetdate':'9 March', 'timeleft':''},
     {'area':'Comp Wall', 'stripdate':'Jan 24, 2023', 'resetdate':'25 Jan', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'Jan 18, 2023', 'resetdate':'19 Jan', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'Feb 15, 2023', 'resetdate':'16 Feb', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Feb 01, 2023', 'resetdate':'2 Feb', 'timeleft':''},
-    {'area':'Islands 1+2', 'stripdate':'Dec 7, 2022', 'resetdate':'08 Dec', 'timeleft':''},
+    {'area':'Islands 1+2', 'stripdate':'Feb 08, 2023', 'resetdate':'09 Feb', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'Nov 03, 2022', 'resetdate':'04 Nov', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'Aug , 2022', 'resetdate':'', 'timeleft':''},
-    {'area':'Auto Belays 1-4', 'stripdate':'Dec 08, 2022', 'resetdate':'08 Dec', 'timeleft':''},
-    {'area':'Auto Belays 6-7', 'stripdate':'Sept 12, 2022', 'resetdate':'12 Sept', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'Sept 19, 2022', 'resetdate':'19 Sept', 'timeleft':''},
+    {'area':'Auto Belays 1-4', 'stripdate':'Jan 23, 2023', 'resetdate':'23 Jan', 'timeleft':''},
+    {'area':'Auto Belays 6-7', 'stripdate':'Jan 23, 2023', 'resetdate':'23 Jan', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'Jan 23, 2023', 'resetdate':'23 Jan', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
