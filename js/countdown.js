@@ -8,10 +8,10 @@ var myArray = [
     {'area':'Font Boulders', 'stripdate':'Apr 05, 2023', 'resetdate':'06 Apr', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Apr 12, 2023', 'resetdate':'13 Apr', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'May 09, 2023', 'resetdate':'10 May', 'timeleft':''},
-    {'area':'Circuit Board', 'stripdate':'March 08, 2022', 'resetdate':'09 March', 'timeleft':''},
-    {'area':'Auto Belays 1-4', 'stripdate':'Jan 23, 2023', 'resetdate':'23 Jan', 'timeleft':''},
-    {'area':'Auto Belays 6-7', 'stripdate':'Jan 23, 2023', 'resetdate':'23 Jan', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'Jan 23, 2023', 'resetdate':'23 Jan', 'timeleft':''},
+    {'area':'Circuit Board', 'stripdate':'March 26, 2022', 'resetdate':'09 March', 'timeleft':''},
+    {'area':'Auto Belays 1-4', 'stripdate':'Apr 26, 2023', 'resetdate':'26 Apr', 'timeleft':''},
+    {'area':'Auto Belays 6-7', 'stripdate':'May 02, 2023', 'resetdate':'2 May', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'May 03, 2023', 'resetdate':'3 May', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
