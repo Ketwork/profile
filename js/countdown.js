@@ -3,10 +3,10 @@ var myArray = [
     {'area':'Font Back Wall', 'stripdate':'Apr 26, 2023', 'resetdate':'27 Apr', 'timeleft':''},
     {'area':'Barrel Wall', 'stripdate':'July 12, 2023', 'resetdate':'13 July', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'July 19, 2023', 'resetdate':'20 July', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'March 29, 2023', 'resetdate':'30 March', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'July 09, 2023', 'resetdate':'10 July', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'July 26, 2023', 'resetdate':'27 July', 'timeleft':''},
-    {'area':'Font Boulders', 'stripdate':'Apr 05, 2023', 'resetdate':'06 Apr', 'timeleft':''},
-    {'area':'Islands 1+2', 'stripdate':'June 14, 2023', 'resetdate':'15 June', 'timeleft':''},
+    {'area':'Font Boulders', 'stripdate':'Aug 02, 2023', 'resetdate':'03 Aug', 'timeleft':''},
+    {'area':'Islands 1+2', 'stripdate':'Aug 09, 2023', 'resetdate':'10 Aug', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'May 09, 2023', 'resetdate':'10 May', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'March 26, 2022', 'resetdate':'09 March', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'Apr 26, 2023', 'resetdate':'26 Apr', 'timeleft':''},
@@ -81,7 +81,7 @@ countdown();
 
 // EVENT COUNTDOWN
 const eventCountdown = () => {
-    const eventDate = new Date("March 16, 2023 13:00:").getTime();
+    const eventDate = new Date("September 23, 2023 13:00:").getTime();
     const now = new Date().getTime();
     const gap = eventDate - now;
 
@@ -96,7 +96,7 @@ const eventCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🦖Dyno-Party🧗 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🧗The Big Comp🏆 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(eventCountdown, 1000);
