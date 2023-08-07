@@ -1,17 +1,17 @@
 var myArray = [
-    {'area':'Long Island Wall', 'stripdate':'Apr 19 , 2023', 'resetdate':'20 Apr', 'timeleft':''},
-    {'area':'Font Back Wall', 'stripdate':'Apr 26, 2023', 'resetdate':'27 Apr', 'timeleft':''},
+    {'area':'Long Island Wall', 'stripdate':'Aug 23, 2023', 'resetdate':'24 Aug', 'timeleft':''},
+    {'area':'Font Back Wall', 'stripdate':'Aug 30, 2023', 'resetdate':'31 Aug', 'timeleft':''},
     {'area':'Barrel Wall', 'stripdate':'July 12, 2023', 'resetdate':'13 July', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'July 19, 2023', 'resetdate':'20 July', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'July 09, 2023', 'resetdate':'10 July', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Aug 02, 2023', 'resetdate':'03 Aug', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'July 26, 2023', 'resetdate':'27 July', 'timeleft':''},
-    {'area':'Font Boulders', 'stripdate':'Aug 02, 2023', 'resetdate':'03 Aug', 'timeleft':''},
-    {'area':'Islands 1+2', 'stripdate':'Aug 09, 2023', 'resetdate':'10 Aug', 'timeleft':''},
+    {'area':'Font Boulders', 'stripdate':'Aug 09, 2023', 'resetdate':'10 Aug', 'timeleft':''},
+    {'area':'Islands 1+2', 'stripdate':'Aug 16, 2023', 'resetdate':'17 Aug', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'May 09, 2023', 'resetdate':'10 May', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'March 26, 2022', 'resetdate':'09 March', 'timeleft':''},
-    {'area':'Auto Belays 1-4', 'stripdate':'Apr 26, 2023', 'resetdate':'26 Apr', 'timeleft':''},
-    {'area':'Auto Belays 6-7', 'stripdate':'May 02, 2023', 'resetdate':'2 May', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'May 03, 2023', 'resetdate':'3 May', 'timeleft':''},
+    {'area':'Auto Belays 1-4', 'stripdate':'Aug 15, 2023', 'resetdate':'15 Aug', 'timeleft':''},
+    {'area':'Auto Belays 5-7', 'stripdate':'Aug 29, 2023', 'resetdate':'29 Aug', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'Sept 12, 2023', 'resetdate':'12 Sept', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
@@ -21,7 +21,7 @@ weekday[2] = "Tuesday";
 weekday[3] = "Wednesday";
 weekday[4] = "Thursday";
 weekday[5] = "Friday";
-weekday[6] = "Saturday"; 
+weekday[6] = "Saturday";
 
 var month = new Array(12);
 month[0] = "Jan";
