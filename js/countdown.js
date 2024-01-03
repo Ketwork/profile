@@ -1,17 +1,17 @@
 var myArray = [
-    {'area':'Long Island Wall', 'stripdate':'Dec 19, 2023', 'resetdate':'20 Dec', 'timeleft':''},
+    {'area':'Long Island Wall', 'stripdate':'Dec 20, 2023', 'resetdate':'21 Dec', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Dec 27, 2023', 'resetdate':'28 Dec', 'timeleft':''},
     {'area':'Barrel Wall', 'stripdate':'Jan 09, 2024', 'resetdate':'10 Jan', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'Nov 15, 2023', 'resetdate':'17 Nov', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'Nov 29, 2023', 'resetdate':'30 Nov', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'Jan 16, 2024', 'resetdate':'17 Jan', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Jan 02, 2024', 'resetdate':'03 Jan', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Jan 23, 2024', 'resetdate':'24 Jan', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Dec 06, 2023', 'resetdate':'07 Dec', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Dec 12, 2023', 'resetdate':'13 Dec', 'timeleft':''},
-    {'area':'Power Tunnel', 'stripdate':'Nov 08, 2023', 'resetdate':'08 Nov', 'timeleft':''},
-    {'area':'Circuit Board', 'stripdate':'Sept 07, 2023', 'resetdate':'08 Sept', 'timeleft':''},
+    {'area':'Power Tunnel', 'stripdate':'April 02, 2024', 'resetdate':'03 April', 'timeleft':''},
+    {'area':'Circuit Board', 'stripdate':'March 13, 2024', 'resetdate':'14 March', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'Nov 06, 2023', 'resetdate':'06 Nov', 'timeleft':''},
     {'area':'Auto Belays 5-7', 'stripdate':'Dec 11, 2023', 'resetdate':'11 Dec', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'Oct 11, 2023', 'resetdate':'11 Oct', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'Jan 26, 2024', 'resetdate':'26 Jan', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
