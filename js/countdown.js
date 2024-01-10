@@ -1,6 +1,6 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Feb 13, 2024', 'resetdate':'14 Feb (est.)', 'timeleft':''},
-    {'area':'Font Back Wall', 'stripdate':'Dec 27, 2023', 'resetdate':'28 Dec', 'timeleft':''},
+    {'area':'Font Back Wall', 'stripdate':'Feb 20, 2024', 'resetdate':'21 Feb (est.)', 'timeleft':''},
     {'area':'Barrel Wall', 'stripdate':'Jan 09, 2024', 'resetdate':'10 Jan', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'Jan 16, 2024', 'resetdate':'17 Jan', 'timeleft':''},
     {'area':'Comp Wall', 'stripdate':'Jan 02, 2024', 'resetdate':'03 Jan', 'timeleft':''},
