@@ -3,7 +3,7 @@ var myArray = [
     {'area':'Font Back Wall', 'stripdate':'Feb 20, 2024', 'resetdate':'21 Feb (est.)', 'timeleft':''},
     {'area':'Barrel Wall', 'stripdate':'Jan 09, 2024', 'resetdate':'10 Jan', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'Jan 16, 2024', 'resetdate':'17 Jan', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'Jan 02, 2024', 'resetdate':'03 Jan', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Mar 06, 2024', 'resetdate':'07 March', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Jan 23, 2024', 'resetdate':'24 Jan', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Jan 30, 2024', 'resetdate':'31 Jan (est.)', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Feb 06, 2024', 'resetdate':'07 Feb (est.)', 'timeleft':''},
