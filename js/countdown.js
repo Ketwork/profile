@@ -81,7 +81,7 @@ countdown();
 
 // EVENT COUNTDOWN
 const eventCountdown = () => {
-    const eventDate = new Date("January 27, 2024 13:00:").getTime();
+    const eventDate = new Date("March 09, 2024 13:00:").getTime();
     const now = new Date().getTime();
     const gap = eventDate - now;
 
@@ -96,7 +96,7 @@ const eventCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🧗Climbing Party - CALM🎉 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    document.querySelector('.section__subtitle').innerText = "🧗International Womens Day Comp🥇 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(eventCountdown, 1000);
@@ -115,7 +115,7 @@ function buildTable(data){
 
     // sort data by days left (if >= 0)
     let timeSortedData = data.filter(num => num.timeleft >= 0).sort(function(a,b){
-      return (a.timeleft) - (b.timeleft);
+        return (a.timeleft) - (b.timeleft);
     });
 
     // sort rest of data by strip date
