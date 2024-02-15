@@ -96,7 +96,9 @@ const eventCountdown = () => {
     const textSecond = (Math.floor((gap % minute) / second)).toLocaleString(undefined, {minimumIntegerDigits:2});
 
     if (gap > 10000) {
-    document.querySelector('.section__subtitle').innerText = "🧗International Womens Day Comp🥇 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
+    const subtitle = document.querySelector('.section__subtitle');
+    subtitle.innerHTML = `<a href="https://example.com" id="subtitle">🧗International Womens Day Comp🥇 ${textDay}:${textHour}:${textMinute}:${textSecond}</a>`;
+    // document.querySelector('.section__subtitle').innerText = "🧗International Womens Day Comp🥇 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
 setInterval(eventCountdown, 1000);

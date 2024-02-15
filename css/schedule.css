@@ -30,6 +30,10 @@ td {
   text-align: center;
 }
 
+#subtitle {
+    color: var(--clr-dark) ;
+}
+
 @media (max-width: 375px) {
     .portfolio-item-individual {
         padding: 0 0em 2em;
