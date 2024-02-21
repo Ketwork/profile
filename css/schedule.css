@@ -31,7 +31,8 @@ td {
 }
 
 #subtitle {
-    color: var(--clr-dark) ;
+    color: var(--clr-dark);
+    font-size: var(--fs-h3);
 }
 
 @media (max-width: 375px) {
