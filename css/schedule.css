@@ -23,11 +23,11 @@ td {
 }
 
 .intro__img--schedule {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .intro {
-  text-align: center;
+    text-align: center;
 }
 
 #subtitle {
