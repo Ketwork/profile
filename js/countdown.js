@@ -97,7 +97,7 @@ const eventCountdown = () => {
 
     if (gap > 10000) {
     const subtitle = document.querySelector('.section__subtitle');
-    subtitle.innerHTML = `<a href="https://londonclimbingcentres.co.uk" id="subtitle">🧗International Womens Day Comp🥇 ${textDay}:${textHour}:${textMinute}:${textSecond}</a>`;
+    subtitle.innerHTML = `<a href="https://londonclimbingcentres.co.uk/international-womens-day-at-lcc/" id="subtitle">🧗International Womens Day Comp🥇 ${textDay}:${textHour}:${textMinute}:${textSecond}</a>`;
     // document.querySelector('.section__subtitle').innerText = "🧗International Womens Day Comp🥇 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
