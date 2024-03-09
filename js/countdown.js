@@ -1,10 +1,10 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Feb 20, 2024', 'resetdate':'21 Feb', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Feb 27, 2024', 'resetdate':'28 Feb', 'timeleft':''},
-    {'area':'Barrel Wall', 'stripdate':'Apr 09, 2024', 'resetdate':'10 Apr (est)', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'Apr 16, 2024', 'resetdate':'17 Apr (est)', 'timeleft':''},
+    {'area':'Barrel Wall', 'stripdate':'Mar 11, 2024', 'resetdate':'12 Mar', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'Mar 18, 2024', 'resetdate':'19 March', 'timeleft':''},
     {'area':'Comp Wall', 'stripdate':'Mar 07, 2024', 'resetdate':'08 March', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'Apr 23, 2024', 'resetdate':'24 Apr (est)', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'Mar 25, 2024', 'resetdate':'26 March', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Feb 06, 2024', 'resetdate':'07 Feb', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Feb 12, 2024', 'resetdate':'13 Feb', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'April 02, 2024', 'resetdate':'03 April', 'timeleft':''},
