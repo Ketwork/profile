@@ -1,17 +1,17 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Apr 23, 2024', 'resetdate':'24 Apr', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Apr 30, 2024', 'resetdate':'01 May', 'timeleft':''},
-    {'area':'Barrel Wall', 'stripdate':'May 14, 2024', 'resetdate':'15 May (est.)', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'May 21, 2024', 'resetdate':'22 May (est.)', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'May 07, 2024', 'resetdate':'08 May (est.)', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'May 28, 2024', 'resetdate':'29 May (est.)', 'timeleft':''},
+    {'area':'Barrel Wall', 'stripdate':'May 14, 2024', 'resetdate':'15 May', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'May 21, 2024', 'resetdate':'22 May', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'May 09, 2024', 'resetdate':'11 May', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'May 28, 2024', 'resetdate':'29 May', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Apr 10, 2024', 'resetdate':'11 Apr', 'timeleft':''},
-    {'area':'Islands 1+2', 'stripdate':'Apr 17, 2024', 'resetdate':'18 April', 'timeleft':''},
+    {'area':'Islands 1+2', 'stripdate':'Jun 18, 2024', 'resetdate':'18 June', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'April 02, 2024', 'resetdate':'03 April', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'March 13, 2024', 'resetdate':'14 March', 'timeleft':''},
-    {'area':'Auto Belays 1-4', 'stripdate':'Feb 23, 2024', 'resetdate':'23 Feb', 'timeleft':''},
-    {'area':'Auto Belays 5-7', 'stripdate':'Mar 29, 2024', 'resetdate':'29 March', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'Jan 26, 2024', 'resetdate':'26 Jan', 'timeleft':''},
+    {'area':'Auto Belays 1-4', 'stripdate':'May 31, 2024', 'resetdate':'31 May', 'timeleft':''},
+    {'area':'Auto Belays 5-7', 'stripdate':'June 28, 2024', 'resetdate':'28 June', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'July 26, 2024', 'resetdate':'26 July', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
