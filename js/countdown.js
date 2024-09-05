@@ -1,17 +1,17 @@
 var myArray = [
     {'area':'Long Island Wall', 'stripdate':'Jun 25, 2024', 'resetdate':'26 June', 'timeleft':''},
     {'area':'Font Back Wall', 'stripdate':'Aug 27, 2024', 'resetdate':'28 Aug', 'timeleft':''},
-    {'area':'Barrel Wall', 'stripdate':'July 16, 2024', 'resetdate':'17 July', 'timeleft':''},
-    {'area':'Rhino', 'stripdate':'July 23, 2024', 'resetdate':'24 July', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'July 10, 2024', 'resetdate':'11 July ', 'timeleft':''},
-    {'area':'Islands 3+4', 'stripdate':'July 30, 2024', 'resetdate':'31 July', 'timeleft':''},
+    {'area':'Barrel Wall', 'stripdate':'Sept 03, 2024', 'resetdate':'04 Sept', 'timeleft':''},
+    {'area':'Rhino', 'stripdate':'Sept 17, 2024', 'resetdate':'21 Sept', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'Sept 01, 2024', 'resetdate':'21 Sept', 'timeleft':''},
+    {'area':'Islands 3+4', 'stripdate':'Sept 19, 2024', 'resetdate':'25 Sept', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Aug 13, 2024', 'resetdate':'14 Aug', 'timeleft':''},
-    {'area':'Islands 1+2', 'stripdate':'Aug 20, 2024', 'resetdate':'21 Aug', 'timeleft':''},
+    {'area':'Islands 1+2', 'stripdate':'Sept 19, 2024', 'resetdate':'21 Aug', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'Aug 08, 2024', 'resetdate':'8 August', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'July 09, 2024', 'resetdate':'9 July', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'Aug 29, 2024', 'resetdate':'29 Aug', 'timeleft':''},
-    {'area':'Auto Belays 5-7', 'stripdate':'June 28, 2024', 'resetdate':'28 June', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'July 26, 2024', 'resetdate':'26 July', 'timeleft':''},
+    {'area':'Auto Belays 5-7', 'stripdate':'Sept 27, 2024', 'resetdate':'29 Sept', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'Oct 25, 2024', 'resetdate':'25 Oct', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
