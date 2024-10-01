@@ -1,12 +1,12 @@
 var myArray = [
-    {'area':'Long Island Wall', 'stripdate':'Sept 18, 2024', 'resetdate':'25 Sept', 'timeleft':''},
-    {'area':'Font Back Wall', 'stripdate':'Aug 27, 2024', 'resetdate':'28 Aug', 'timeleft':''},
-    {'area':'Barrel Wall', 'stripdate':'Sept 03, 2024', 'resetdate':'04 Sept', 'timeleft':''},
+    {'area':'Long Island Wall', 'stripdate':'Oct 22, 2024', 'resetdate':'23 Oct', 'timeleft':''},
+    {'area':'Font Back Wall', 'stripdate':'Oct 29, 2024', 'resetdate':'30 Oct', 'timeleft':''},
+    {'area':'Barrel Wall', 'stripdate':'Nov 12, 2024', 'resetdate':'13 Nov', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'Sept 17, 2024', 'resetdate':'21 Sept', 'timeleft':''},
     {'area':'Comp Wall', 'stripdate':'Sept 01, 2024', 'resetdate':'21 Sept', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'Sept 19, 2024', 'resetdate':'25 Sept', 'timeleft':''},
-    {'area':'Font Boulders', 'stripdate':'Aug 13, 2024', 'resetdate':'14 Aug', 'timeleft':''},
-    {'area':'Islands 1+2', 'stripdate':'Sept 19, 2024', 'resetdate':'21 Aug', 'timeleft':''},
+    {'area':'Font Boulders', 'stripdate':'Oct 01, 2024', 'resetdate':'02 Oct', 'timeleft':''},
+    {'area':'Islands 1+2', 'stripdate':'Oct 15, 2024', 'resetdate':'16 Oct', 'timeleft':''},
     {'area':'Power Tunnel', 'stripdate':'Aug 08, 2024', 'resetdate':'8 August', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'July 09, 2024', 'resetdate':'9 July', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'Aug 29, 2024', 'resetdate':'29 Aug', 'timeleft':''},
@@ -17,7 +17,7 @@ var myArray = [
 var weekday = new Array(7);
 weekday[0] = "Sunday";
 weekday[1] = "Monday";
-weekday[2] = "Tuesday";
+weekday[2] = "Tuesday"; 
 weekday[3] = "Wednesday";
 weekday[4] = "Thursday";
 weekday[5] = "Friday";
