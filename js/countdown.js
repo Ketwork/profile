@@ -3,15 +3,15 @@ var myArray = [
     {'area':'Font Back Wall', 'stripdate':'March 18, 2025', 'resetdate':'19 March', 'timeleft':''},
     {'area':'Barrel Wall', 'stripdate':'Nov 12, 2024', 'resetdate':'13 Nov', 'timeleft':''},
     {'area':'Rhino', 'stripdate':'Nov 19, 2024', 'resetdate':'20 Nov', 'timeleft':''},
-    {'area':'Comp Wall', 'stripdate':'March 26, 2025', 'resetdate':'27 March', 'timeleft':''},
+    {'area':'Comp Wall', 'stripdate':'March 26, 2025', 'resetdate':'29 March', 'timeleft':''},
     {'area':'Islands 3+4', 'stripdate':'April 15, 2025', 'resetdate':'16 April', 'timeleft':''},
     {'area':'Font Boulders', 'stripdate':'Feb 25, 2025', 'resetdate':'26 Feb', 'timeleft':''},
     {'area':'Islands 1+2', 'stripdate':'Mar 04, 2025', 'resetdate':'05 March', 'timeleft':''},
-    {'area':'Power Tunnel', 'stripdate':'Dec 03, 2024', 'resetdate':'04 Dec', 'timeleft':''},
+    {'area':'Power Tunnel', 'stripdate':'April 22, 2025', 'resetdate':'23 April', 'timeleft':''},
     {'area':'Circuit Board', 'stripdate':'July 09, 2024', 'resetdate':'9 July', 'timeleft':''},
     {'area':'Auto Belays 1-4', 'stripdate':'Feb 24, 2025', 'resetdate':'25 Feb', 'timeleft':''},
-    {'area':'Auto Belays 5-7', 'stripdate':'March 27, 2025', 'resetdate':'28 March', 'timeleft':''},
-    {'area':'Auto Belays 8-10', 'stripdate':'Jan 30, 2024', 'resetdate':'30 Jan', 'timeleft':''},
+    {'area':'Auto Belays 5-7', 'stripdate':'March 27, 2025', 'resetdate':'27 March', 'timeleft':''},
+    {'area':'Auto Belays 8-10', 'stripdate':'March 24, 2025', 'resetdate':'24 March', 'timeleft':''},
 ]
 
 var weekday = new Array(7);
@@ -81,7 +81,7 @@ countdown();
 
 // EVENT COUNTDOWN
 const eventCountdown = () => {
-    const eventDate = new Date("March 09, 2024 13:00:").getTime();
+    const eventDate = new Date("March 30, 2025 13:00:").getTime();
     const now = new Date().getTime();
     const gap = eventDate - now;
 
@@ -97,7 +97,7 @@ const eventCountdown = () => {
 
     if (gap > 10000) {
     const subtitle = document.querySelector('.section__subtitle');
-    subtitle.innerHTML = `<a href="https://londonclimbingcentres.co.uk/international-womens-day-at-lcc/" id="subtitle">🧗International Womens Day Comp🥇 ${textDay}:${textHour}:${textMinute}:${textSecond}</a>`;
+    subtitle.innerHTML = `<a href="https://tenzingclimbingfestival.co.uk/" id="subtitle">🧗Tenzing Comp!🥇 ${textDay}:${textHour}:${textMinute}:${textSecond}</a>`;
     // document.querySelector('.section__subtitle').innerText = "🧗International Womens Day Comp🥇 " + textDay + ':' + textHour + ':' + textMinute + ':' + textSecond;
     }
 }  
